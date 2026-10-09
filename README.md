@@ -1,3 +1,5 @@
+Talitha Maharani Nashier_H1D024098_Shift D
+
 # 📱 Digimon Explorer - Responsi Praktikum Pemrograman Mobile
 
 Aplikasi Android modern untuk menjelajahi dan mengidentifikasi Digimon di Dunia Digital, dibangun menggunakan **100% Jetpack Compose (NO XML)**, arsitektur murni **MVVM (Model-View-ViewModel + Repository)**, serta **Material Design 3**.
@@ -184,25 +186,7 @@ sealed interface HomeUiState {
 
 Gunakan panduan berikut sebagai acuan berbicara saat merekam video penjelasan kode:
 
-1. **Pembukaan**:
-   * Perkenalkan diri (Nama, NIM, Shift Praktikum).
-   * Jelaskan tujuan aplikasi: Aplikasi Eksplorasi Digimon yang mengambil data dari Digi-API menggunakan Jetpack Compose dan arsitektur MVVM murni.
-2. **Layer Data (`data/`)**:
-   * Buka [DigimonModels.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/data/model/DigimonModels.kt): Jelaskan penggunaan *data class* untuk memetakan respons JSON dari Digi-API (`content`, `levels`, `attributes`, `types`) dan fungsi mapper `toDomainModel()`.
-   * Buka [DigiApiService.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/data/api/DigiApiService.kt) & [ApiClient.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/data/api/ApiClient.kt): Jelaskan integrasi Retrofit dengan base URL `https://digi-api.com/api/v1/`.
-   * Buka [DigimonRepository.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/data/repository/DigimonRepository.kt): Jelaskan bagaimana data list diambil dan digabungkan secara paralel dengan Coroutine agar setiap kartu memiliki Level, Attribute, dan Type lengkap.
-3. **Layer ViewModel & State (`ui/screens/`)**:
-   * Buka [HomeUiState.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/ui/screens/home/HomeUiState.kt): Jelaskan 3 state wajib (Loading, Success, Error).
-   * Buka [HomeViewModel.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/ui/screens/home/HomeViewModel.kt): Jelaskan pemanfaatan `StateFlow` dan fungsi `loadDigimons()` yang memperbarui UI state secara asinkron.
-4. **Layer UI (Compose View & Navigasi)**:
-   * Buka [HomeScreen.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/ui/screens/home/HomeScreen.kt): Tunjukkan komponen `LazyVerticalGrid`, penanganan `when (state)`, serta kartu `DigimonCardItem` yang memuat nama, level, atribut, tipe, dan gambar (Coil).
-   * Buka [DetailScreen.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/ui/screens/detail/DetailScreen.kt): Tunjukkan tampilan detail dan tombol kembali (`IconButton` di `TopAppBar`).
-   * Buka [NavGraph.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/ui/navigation/NavGraph.kt): Jelaskan bagaimana Jetpack Compose Navigation mengarahkan perpindahan antara Home Screen dan Detail Screen dengan melewatkan argumen `digimonId`.
-5. **Tema & Desain (`ui/theme/`)**:
-   * Tunjukkan [Theme.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/ui/theme/Theme.kt), [Color.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/ui/theme/Color.kt), dan [Type.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/ui/theme/Type.kt) yang membuktikan penerapan Custom Theme & Custom Typography Material 3 tanpa XML sama sekali.
-6. **Penutup**:
-   * Ringkas bahwa seluruh persyaratan teknis (Kotlin modern, Jetpack Compose, MVVM murni, Retrofit Digi-API, State Management 3 kondisi, 2 screens navigation) telah terpenuhi dan terkompilasi dengan sukses.
- 
+---
 
 ## Tampilan Aplikasi
 
