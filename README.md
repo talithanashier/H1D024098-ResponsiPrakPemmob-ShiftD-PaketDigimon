@@ -162,7 +162,6 @@ sealed interface HomeUiState {
 
 ---
 
-
 ## 📷 Tampilan Aplikasi
 
 Dark Mode
@@ -175,6 +174,9 @@ Light Mode
 <img width="776" height="1600" alt="image" src="https://github.com/user-attachments/assets/bc8860e4-b68f-4d7b-8ca8-eb54ae8ed0ac" />
 <img width="776" height="1600" alt="image" src="https://github.com/user-attachments/assets/9109b509-2169-4bc2-a293-d4d54e0c1d7f" />
 
+---
+## 🔗 Link Video YouTube
 
+https://youtu.be/u4WMAERnJKs?si=T-eNFbNBcZSSXIu3
 
 
