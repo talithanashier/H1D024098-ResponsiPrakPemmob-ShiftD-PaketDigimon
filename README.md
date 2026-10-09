@@ -162,11 +162,6 @@ sealed interface HomeUiState {
 
 ---
 
-## 🎙 Panduan Penjelasan Kode untuk Video Responsi
-
-Gunakan panduan berikut sebagai acuan berbicara saat merekam video penjelasan kode:
-
----
 
 ## 📷 Tampilan Aplikasi
 
