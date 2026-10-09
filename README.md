@@ -19,26 +19,6 @@ Aplikasi Android modern untuk menjelajahi dan mengidentifikasi Digimon di Dunia 
 
 ---
 
-## 📖 Deskripsi Proyek
-Dunia digital sedang dilanda kekacauan akibat ulah tamer jahat. Aplikasi **Digimon Explorer** dibuat untuk membantu para tamer mengidentifikasi digimon musuh dengan menampilkan informasi mendalam mengenai nama, level, atribut, tipe, hingga jurus/kemampuan yang bersumber langsung dari **Digi-API (DAPI)** publik.
-
----
-
-## 📸 Tampilan Antarmuka (Screenshot Aplikasi)
-
-| 1. Home Screen (Data Grid) | 2. Detail Screen (Informasi Karakter) |
-| :---: | :---: |
-| ![Home Screen](screenshots/home_screen.png) | ![Detail Screen](screenshots/detail_screen.png) |
-
-| 3. Loading State | 4. Error State & Retry Button |
-| :---: | :---: |
-| ![Loading State](screenshots/loading_state.png) | ![Error State](screenshots/error_state.png) |
-
-> 💡 **Petunjuk Pengisian Screenshot:**
-> Ambil tangkapan layar dari emulator/perangkat fisik Anda, simpan dengan format nama file di atas ke dalam folder [`screenshots/`](screenshots/) di root repositori ini.
-
----
-
 ## ✨ Fitur Utama
 * **100% Jetpack Compose & Material 3**: UI modern, responsif, tanpa satu pun layout XML.
 * **Integrasi Digi-API (DAPI)**: Mengambil data real-time dari endpoint RESTful `https://digi-api.com/api/v1/`.
