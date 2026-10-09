@@ -168,7 +168,7 @@ Gunakan panduan berikut sebagai acuan berbicara saat merekam video penjelasan ko
 
 ---
 
-## Tampilan Aplikasi
+## 📷 Tampilan Aplikasi
 
 Dark Mode
 
