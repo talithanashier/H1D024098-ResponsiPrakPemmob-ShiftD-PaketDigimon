@@ -6,11 +6,11 @@ Aplikasi Android modern untuk menjelajahi dan mengidentifikasi Digimon di Dunia 
 
 ## 📋 Daftar Isi
 1. [Deskripsi Proyek](#-deskripsi-proyek)
-2. [Fitur Utama](#-fitur-utama)
-3. [Tech Stack & Pustaka](#-tech-stack--pustaka)
-4. [Arsitektur Proyek (MVVM)](#-arsitektur-proyek-mvvm)
-5. [Struktur Folder](#-struktur-folder)
-6. [Implementasi Layar (2 Screens)](#-implementasi-layar-2-screens)
+2. [Tampilan Antarmuka (Screenshot Aplikasi)](#-tampilan-antarmuka-screenshot-aplikasi)
+3. [Fitur Utama](#-fitur-utama)
+4. [Tech Stack & Pustaka](#-tech-stack--pustaka)
+5. [Arsitektur Proyek (MVVM)](#-arsitektur-proyek-mvvm)
+6. [Struktur Folder](#-struktur-folder)
 7. [Penanganan State (UI State)](#-penanganan-state-ui-state)
 8. [Cara Menjalankan Proyek](#-cara-menjalankan-proyek)
 9. [Panduan Penjelasan Kode untuk Video Responsi](#-panduan-penjelasan-kode-untuk-video-responsi)
@@ -19,6 +19,21 @@ Aplikasi Android modern untuk menjelajahi dan mengidentifikasi Digimon di Dunia 
 
 ## 📖 Deskripsi Proyek
 Dunia digital sedang dilanda kekacauan akibat ulah tamer jahat. Aplikasi **Digimon Explorer** dibuat untuk membantu para tamer mengidentifikasi digimon musuh dengan menampilkan informasi mendalam mengenai nama, level, atribut, tipe, hingga jurus/kemampuan yang bersumber langsung dari **Digi-API (DAPI)** publik.
+
+---
+
+## 📸 Tampilan Antarmuka (Screenshot Aplikasi)
+
+| 1. Home Screen (Data Grid) | 2. Detail Screen (Informasi Karakter) |
+| :---: | :---: |
+| ![Home Screen](screenshots/home_screen.png) | ![Detail Screen](screenshots/detail_screen.png) |
+
+| 3. Loading State | 4. Error State & Retry Button |
+| :---: | :---: |
+| ![Loading State](screenshots/loading_state.png) | ![Error State](screenshots/error_state.png) |
+
+> 💡 **Petunjuk Pengisian Screenshot:**
+> Ambil tangkapan layar dari emulator/perangkat fisik Anda, simpan dengan format nama file di atas ke dalam folder [`screenshots/`](screenshots/) di root repositori ini.
 
 ---
 
