@@ -202,3 +202,18 @@ Gunakan panduan berikut sebagai acuan berbicara saat merekam video penjelasan ko
    * Tunjukkan [Theme.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/ui/theme/Theme.kt), [Color.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/ui/theme/Color.kt), dan [Type.kt](file:///d:/ResponsiPraktikumPemmob_ShiftD/app/src/main/java/com/responsi/digimonexplorer/ui/theme/Type.kt) yang membuktikan penerapan Custom Theme & Custom Typography Material 3 tanpa XML sama sekali.
 6. **Penutup**:
    * Ringkas bahwa seluruh persyaratan teknis (Kotlin modern, Jetpack Compose, MVVM murni, Retrofit Digi-API, State Management 3 kondisi, 2 screens navigation) telah terpenuhi dan terkompilasi dengan sukses.
+ 
+
+## Tampilan Aplikasi
+
+**Dark Mode**
+<img width="776" height="1600" alt="image" src="https://github.com/user-attachments/assets/3e662d9c-e2fc-4b39-a790-4888ed4ef5f4" />
+<img width="776" height="1600" alt="image" src="https://github.com/user-attachments/assets/997b27db-42f6-4df7-83ca-720b7d8f26fc" />
+
+**Light Mode**
+<img width="776" height="1600" alt="image" src="https://github.com/user-attachments/assets/bc8860e4-b68f-4d7b-8ca8-eb54ae8ed0ac" />
+<img width="776" height="1600" alt="image" src="https://github.com/user-attachments/assets/9109b509-2169-4bc2-a293-d4d54e0c1d7f" />
+
+
+
+
